@@ -1,4 +1,22 @@
-.App {
+ .navigation{
+   
+   display: flex;
+   margin-left: 320px;
+   text-decoration: none;
+   
+
+
+  }
+ .navigation h1{
+    padding-right: 80px;
+    
+  }
+ 
+ 
+ 
+ 
+ 
+ .App {
   text-align: center;
 }
 

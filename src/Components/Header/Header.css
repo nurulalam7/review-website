@@ -1,0 +1,25 @@
+.main-header{
+    text-align: center;
+    
+    
+}
+.main-header h1{
+    font-size: 50px;
+}
+.main-header span{
+    color: orangered;
+}
+.main-header nav h1{
+    font-size: 30px;
+    padding-right: 40px;
+    margin-left: 70px;
+    color: white;
+}
+.main-header nav{
+    display: flex;
+    background-color: black;
+}
+.main-header nav h1:hover{
+    color: orangered;
+}
+

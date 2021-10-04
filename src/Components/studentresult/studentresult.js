@@ -1,0 +1,17 @@
+const studentresult=[
+    { name:'parves',course:'ielts',duration:'three month',price:3000},
+    {name:'alfaz', course:'gre',duration:'three month',price:5000},
+    {name:'fabiha', course:'kids',duration:'four month',price:5000},
+    {name:'maligha', course:'math',duration:'five month',price:3000},
+    {name:'alfa', course:'math',duration:'six month',price:9000},
+    {name:'lorim', course:'bangla',duration:'seven month',price:7000},
+    {name:'nurul', course:'history',duration:'eight month',price:3000},
+    {name:'parbin', course:'englis',duration:'nine month',price:11000},
+    { name:'malum',course:'quran',duration:'ten month',price:3000},
+    { name:'carmin',course:'speaking',duration:'one month',price:43000},
+    {name:'salalm', course:'national english',duration:'two month',price:3000},
+    {name:'muksuda', course:'international english',duration:'five month',price:3000},
+    {name:'harun', course:'bangla',duration:'six month',price:7000},
+    {name:'parves', course:'physics',duration:'eight month',price:3000},
+    {name:'mizan', course:'chemistry',duration:'three month',price:12000},
+]
