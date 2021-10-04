@@ -1,10 +1,11 @@
 import React from 'react'
 import { Card, Col, Row } from 'react-bootstrap';
+import './Serviceboy.css'
 
 const Serviceboy = (props) => {
     const {courseName,duration,price}=props.serve;
     return (
-        <div>
+        <div className='serviceinfo'>
             <Row xs={1} md={2} className="g-4">
                 {Array.from({ length: 1 }).map((_,idx) => (
                     <Col>

@@ -42,7 +42,7 @@ function App() {
           <Route exact path='/contact'>
             <Contact></Contact>
           </Route>
-          <Route>
+          <Route path='*'>
             <Not></Not>
           </Route>
 

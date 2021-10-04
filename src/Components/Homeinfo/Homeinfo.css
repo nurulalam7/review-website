@@ -1,0 +1,10 @@
+.info{
+    border: 1px solid gray;
+    
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+.personal {
+    display: flex;
+    
+}

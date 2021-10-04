@@ -1,10 +1,11 @@
 import React from 'react'
 import { Card, Col, Row } from 'react-bootstrap';
+import './Review.css'
 
 const Review = (props) => {
     const {name,course,duration,price}=props.rev;
     return (
-        <div>
+        <div className='reviewinfo'>
              <Row xs={1} md={2} className="g-4">
                 {Array.from({ length: 1 }).map((_,idx) => (
                     <Col>

@@ -1,14 +1,15 @@
 import React from 'react'
 import { Card, Col, Row } from 'react-bootstrap';
+import './Homeinfo.css'
 
 const Homeinfo = (props) => {
     const {img,ceo,age,country}=props.home;
     return (
-        <div>
+        <div className='info'>
             <Row xs={1} md={2} className="g-4">
                 {Array.from({ length: 1 }).map((_,idx) => (
                     <Col>
-                        <Card>
+                        <Card className="personal">
                             <Card.Img variant="top" src= {img}/>
                             <Card.Body>
                                 <Card.Title><h1>name:{ceo}</h1></Card.Title>
