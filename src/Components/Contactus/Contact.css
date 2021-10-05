@@ -1,4 +1,12 @@
 .name{
-    text-align: left;
-    font-size: 30px;
+    
+    background-color: teal;
+    color: white;
+}
+.nameinfo{
+    display: flex;
+    column-gap: 30px;
+   
+    margin-left: 30px;
+    
 }

@@ -6,12 +6,12 @@ const Review = (props) => {
     const {name,course,duration,price}=props.rev;
     return (
         <div className='reviewinfo'>
-             <Row xs={1} md={2} className="g-4">
+            <Row xs={1} md={2} className="g-4">
                 {Array.from({ length: 1 }).map((_,idx) => (
                     <Col>
                         <Card>
                             
-                            <Card.Body>
+                            <Card.Body className='rev'>
                                 <Card.Title><h1>student-name:{name}</h1></Card.Title>
                                 <Card.Text>
                                 <h1> course:{course}</h1>

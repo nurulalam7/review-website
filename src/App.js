@@ -19,38 +19,57 @@ function App() {
  
   return (
     <div className="">
-      <Header></Header>
+      
       
       <Router>
-        <Linkid></Linkid>
+        {/* <Linkid></Linkid> */}
+        <Header></Header>
         <Switch>
+           
           <Route exact path='/'>
+            
             <Homepage></Homepage>
+            
           </Route>
-          <Route exact path='/home'>
+          <Route path='/home'>
+            
             <Homepage></Homepage>
+            
           </Route>
-          <Route exact path='/about'>
+          <Route  path='/about'>
+           
             <About></About>
+           
           </Route>
-          <Route exact path='/service'>
+          <Route path='/service'>
+           
             <Service></Service>
+            
           </Route>
-          <Route exact path='/review'>
+          <Route  path='/review'>
+           
             <Student></Student>
+            
           </Route>
-          <Route exact path='/contact'>
+          <Route  path='/contact'>
+            
             <Contact></Contact>
+           
           </Route>
           <Route path='*'>
             <Not></Not>
           </Route>
-
+          
         </Switch>
+        <Footer></Footer>
+        
+          
+        
+          
         
       </Router>
       
-      <Footer></Footer>
+     
       
      
       

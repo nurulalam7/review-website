@@ -1,10 +1,28 @@
 .info{
     border: 1px solid gray;
+    width: 600px;
+    border-radius: 5px;
     
-    grid-template-columns: 3fr 1fr;
-    gap: 20px;
+   
 }
-.personal {
+.personal{
+    margin-left: 30px;
     display: flex;
+}
+.perso{
+    padding-left: 20px;
+}
+
+.personal button{
+    width: 90px;
+    height: 30px;
+    background-color: black;
+    color: cornsilk;
+    font-size: 20px;
+    border-radius: 5px;
     
+}
+.personal Img{
+    height: 270px;
+    width: 250px;
 }

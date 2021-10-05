@@ -1,3 +1,9 @@
 .serviceinfo{
     border: 2px solid black;
+    width: 400px;
+    margin-left: 30px;
+    background-color: thistle;
+}
+.service i{
+    font-size: 40px;
 }
